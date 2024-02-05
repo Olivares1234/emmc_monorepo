@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import "./nav.css";
+@import "./scroll.css";
+@import "./list.css";
+@import "./reportsStyle/reports_main.css";
+
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.dark-border {
+  border: 1px solid rgba(209, 213, 219, 0.1);
+}
+
+.light-border {
+  border: 1px solid rgba(209, 213, 219, 0.8);
+}
+
+.dark-bg {
+  background-color: #1a1b1e;
+}
+
+.light-bg {
+  background-color: #fff;
+}
+
+.custom-create-modal-dark section {
+  background-color: #1a1b1e !important;
+  color: inherit;
+
+  & .mantine-Modal-header {
+    background-color: #1a1b1e !important;
+    color: inherit;
+  }
+}
+
+.dark-shadow {
+  box-shadow: 0px 0px 2.5px rgba(209, 213, 219, 0.2);
+  -webkit-box-shadow: 0px 0px 2.5px rgba(209, 213, 219, 0.2);
+  -moz-box-shadow: 0px 0px 2.5px rgba(209, 213, 219, 0.2);
+}
+
+.light-shadow {
+  box-shadow: 0px 0px 6px rgba(209, 213, 219, 1);
+  -webkit-box-shadow: 0px 0px 6px rgba(209, 213, 219, 1);
+  -moz-box-shadow: 0px 0px 6px rgba(209, 213, 219, 1);
+}
+
+.mantine-Paper-root {
+  overflow-y: initial;
+  position: relative;
+}
+
+.mantine-Select-dropdown {
+  z-index: 99999;
+}
+
+html {
+  font-size: 10px;
+  /* font-size: 13px; */
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1680px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1900px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 2580px) {
+  html {
+    font-size: 18px;
+  }
+}

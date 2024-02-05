@@ -1,0 +1,23 @@
+.nav-link {
+  @apply px-4 py-3 no-underline text-gray-500;
+
+  &.active {
+    @apply text-forest-500;
+    border-right: 3px solid #12b886;
+    margin-right: -3.2px;
+  }
+}
+
+.navbar {
+  &.dark {
+    box-shadow: 2px 1px 1px rgba(209, 213, 219, 0.1);
+  }
+
+  &.light {
+    box-shadow: 2px 1px 1px rgba(209, 213, 219, 0.8);
+  }
+}
+
+.menu-nav-link {
+  @apply no-underline text-forest-500 font-medium text-sm;
+}
