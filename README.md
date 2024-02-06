@@ -1,6 +1,6 @@
 <div>
-  <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/typescript-def.png" alt="Image 1" style="margin-right: 20px;">
-  <img src="https://static-00.iconduck.com/assets.00/nestjs-icon-512x510-9nvpcyc3.png" alt="Image 2">
+  <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/typescript-def.png" alt="Image 1" width="50" style="margin-right: 20px;">
+  <img src="https://static-00.iconduck.com/assets.00/nestjs-icon-512x510-9nvpcyc3.png" width="50" alt="Image 2">
 </div>
 
 
